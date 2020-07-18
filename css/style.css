@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(14, 46, 71);
+    font-size: 20px;
+}
+b{
+    background: rgb(14, 46, 71);
+    padding: 11px 10px;
+    color: #fff;
+    border-radius: 100%;
+}
+.block{
+    border:2px dashed #000;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0 10px 0;
+    background: rgb(214, 217, 218);
+    transform: translateY(80%);
+}
+#caractere{
+    width: 80%;
+    padding: 10px 0;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-color: transparent;
+    box-shadow: 0 1px 6px 0 rgba(33, 43, 44, 0.158);
+    outline: none;
+    border-radius: 10px;
+}
+#btninverser{
+    margin: 20px 0;
+    padding:10px 15px;
+    color: #fff;
+    background: rgb(14, 46, 71);
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all .5s;
+}
+#btninverser:hover{
+    background: rgb(14, 100, 167);
+}
+#message{
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 700;
+    padding:20px 10px;
+}
+.error{
+    box-shadow: 0 1px 9px 0 rgb(241, 42, 7) !important;
+    border-color: rgba(223,225,229,0);
+}
